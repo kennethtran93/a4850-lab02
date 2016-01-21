@@ -30,7 +30,7 @@ class Gallery extends Application {
         $parms = array(
             'table_open' => '<table class = "gallery">',
             'cell_start' => '<td class="oneimage">',
-            'call_alt_start' => '<td class="oneimage">'
+            'cell_alt_start' => '<td class="oneimage">'
         );
         $this->table->set_template($parms);
 

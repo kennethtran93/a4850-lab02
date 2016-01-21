@@ -11,7 +11,7 @@
  *
  * @author yoseph
  */
-class Images extends MY_Model {
+class Images extends CI_Model {
 
     function __construct() {
 
